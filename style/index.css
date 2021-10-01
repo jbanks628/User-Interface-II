@@ -24,11 +24,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+.bod {
+	line-height: 0;
 }
 *{
-font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Roboto Mono', monospace;
 box-sizing: border-box;
 width:100%;
 
@@ -37,10 +37,11 @@ header{
     background:#202020;
 }
 h1{
+    font-family: 'Roboto Mono', monospace;
     color:#e3bf09;
-    text-transform: uppercase;
     margin:1%;
     font-size: xx-large;
+    letter-spacing: 1rem;
     
 }
 
@@ -48,25 +49,24 @@ nav a{
     text-decoration: none;
 }
 .one{
-    background:black;
-    color:#e3bf09;
-    border:1px solid black;
+    background-color:#e3bf09;
+    color:black;
+    border: 1px solid black;
     border-radius: 10px;
     padding:0 2%;
 }
 .top1{
     margin: 2%;
     text-align: center;
-    display:flex;
-    justify-content: space-around;
+  
  
 }
 
 .one:hover{
     transition: 1s;
-    background-color:#e3bf09;
-    color:black;
-    border:1px solid black;
+    background-color: black;
+    color: #e3bf09;
+    border: 1px solid black;
   
 }
 .two{
@@ -117,7 +117,8 @@ nav a{
     height:300px;
 }
 body{
-    background-image: url('../assets/david-jorre-oQbLeq4nOek-unsplash.jpg');
+    background-image: url('../assets/wall-gc934238e3_1920.jpg');
+    background-repeat: none;
 }
 
    
