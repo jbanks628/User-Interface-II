@@ -24,8 +24,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-.bod {
-	line-height: 0;
+body {
+	line-height: 1;
+    width:100%;
+    background-image: url('../assets/wall-gc934238e3_1920.jpg');
+    background-repeat: none;
+    background-size:cover;
 }
 *{
 font-family: 'Roboto Mono', monospace;
@@ -35,10 +39,13 @@ width:100%;
 }
 header{
     background:#202020;
+    border:3px solid #202020;
+    font-family: 'Roboto Mono', monospace;
+
 }
 h1{
     font-family: 'Roboto Mono', monospace;
-    color:#e3bf09;
+    color:white;
     margin:1%;
     font-size: xx-large;
     letter-spacing: 1rem;
@@ -47,83 +54,139 @@ h1{
 
 nav a{
     text-decoration: none;
+    width: 10%;
+    position:relative; left: -30%;
+
 }
 .one{
-    background-color:#e3bf09;
+    background-color:white;
     color:black;
     border: 1px solid black;
-    border-radius: 10px;
-    padding:0 2%;
+    border-radius: 5px;
+    padding:1%;
+    text-align:center;
+    margin:1%;
 }
 .top1{
-    margin: 2%;
+    margin:2%;
     text-align: center;
-  
- 
+    padding:2%;
+    font-weight:bold;
+   
 }
 
 .one:hover{
     transition: 1s;
     background-color: black;
-    color: #e3bf09;
-    border: 1px solid black;
+    color: white;
+    border: 10px solid black;
   
 }
 .two{
-    background-color:#e3bf09;
+    background-color:white;
     color:black;
     border: 1px solid black;
-    border-radius: 10px;
-    padding:0 2%;
+    border-radius: 5px;
+    padding:1%;
+    text-align:center;
+    margin:1%;
 }
 .two:hover{
     transition: 1s;
     background-color: black;
-    color: #e3bf09;
-    border: 1px solid black;
+    color: white;
+    border: 10px solid black;
     
 }
 .three{
-    background-color:#e3bf09;
+    background-color:white;
     color:black;
     border: 1px solid black;
-    border-radius: 10px;
-    padding:0 2%;
+    border-radius: 3px;
+    padding:1%;
+    text-align:center;
+    margin:1%;
 }
 .three:hover{
     transition: 1s;
     background-color: black;
-    color: #e3bf09;
-    border: 1px solid black;
+    color: white;
+    border: 10px solid black;
     
 }
 .four{
-    background-color:#e3bf09;
+    background-color:white;
     color:black;
     border: 1px solid black;
-    border-radius: 10px;
-    padding:0 2%;
+    border-radius: 5px;
+    padding:1%;
+    text-align:center;
+    margin:1%;
 }
 .four:hover{
     transition: 1s;
     background-color: black;
-    color: #e3bf09;
-    border: 1px solid black;
+    color: white;
+    border: 10px solid black;
     
 }
 .top img{
-    width:45%;
-    padding:2%;
-    height:300px;
-}
-body{
-    background-image: url('../assets/wall-gc934238e3_1920.jpg');
-    background-repeat: none;
-}
-
-   
-    
+    text-align:center;
+    max-width:50%;
+    height:auto;
+    border: 4px outset white;
+    margin:3%;
+} 
 
 .top button{
-    padding:2%;
+    max-width: 30%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bold;
+    background-color:white;
+    color:black;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding:0%;
+    padding-right:45%;
+    padding-left:25%;
+    text-align:center;
+    
+    
+}
+.top button:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    text-align:center;
+    
+}
+h2{
+    font-size:xx-large;
+    font-weight:bold;
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    padding:5%;
+}
+p{
+    color:white;
+    font-weight:normal;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: .3rem;
+    width:100%;
+    padding:5%;
+    text-align:left;
+    
+}
+body .top{
+    max-width:100%;
+    display:flex;
+    align-items:flex-start;
+    padding:5%;
+}
+.txt{
+    display:inline-block;
+    text-align:center;
+    max-width:100%;
+    margin-left:17%;
 }
