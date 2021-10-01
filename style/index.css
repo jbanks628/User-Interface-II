@@ -190,3 +190,23 @@ body .top{
     max-width:100%;
     margin-left:17%;
 }
+.row1{
+max-width:100%;
+display:flex;
+flex-flow:row wrap;
+align-content:space-around;
+}
+.row1 img{
+    width:50%;
+    border:4px outset white;
+    height:auto;
+}
+.row1 img{
+    position:relative;
+    width:25%;
+}
+button .a1{
+width:5%;   
+    
+
+}
