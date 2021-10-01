@@ -193,20 +193,66 @@ body .top{
 .row1{
 max-width:100%;
 display:flex;
-flex-flow:row wrap;
+flex-flow:row;
 align-content:space-around;
 }
 .row1 img{
-    width:50%;
+    width:90%;
     border:4px outset white;
-    height:auto;
-}
-.row1 img{
+    height:50%;
     position:relative;
-    width:25%;
+    justify-content:space-between;
+    margin-left:5%;
 }
-button .a1{
-width:5%;   
-    
+button.a1{
+padding:1%;  
+width:50%;
+margin-left:25%;
+}
+button.b1{
+padding:1%;  
+width:50%;
+margin-left:25%;
+}
+button.c1{
+padding:1%;  
+width:50%;
+margin-left:25%;
+}
+button.d1{
+padding:1%;  
+width:50%;
+margin-left:25%;
+}
+button.a1:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    opacity:0.5;
+}
+button.b1:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    opacity:0.5;
+}
+button.c1:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    opacity:0.5;
+}
+button.d1:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    opacity:0.5;
+}
 
-}
+
+
+
