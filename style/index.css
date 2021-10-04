@@ -435,6 +435,41 @@ h2{
     width:45%;
     margin-left:5%
 }
-
+.e{
+    margin-bottom:9%;
+}
+.f{
+    margin-bottom:9%;
+}
+.g{
+    margin-bottom:9%;
+}
+.h{
+    margin-bottom:9%;
+}
+.row2 div{
+    width:45%;
+    margin-left:5%
+}
+.row2{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:45%;
+}
+.imge{
+    
+    margin-bottom:10%;
+}
+.imgf{
+    margin-bottom:10%;
+}
+.imgg{
+    margin-bottom:9%;
+    margin-top:50%;
+}
+.imgh{
+    margin-bottom:10%;
+    margin-top:50%;
+}
 }
 
