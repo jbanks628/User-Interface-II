@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    width:100%;
+    max-width:100%;
     background-image: url('../assets/wall-gc934238e3_1920.jpg');
     background-repeat: none;
     background-size:cover;
@@ -34,14 +34,14 @@ body {
 *{
 font-family: 'Roboto Mono', monospace;
 box-sizing: border-box;
-width:100%;
+max-width:100%;
 
 }
 header{
     background:#202020;
     border:3px solid #202020;
     font-family: 'Roboto Mono', monospace;
-
+    width:100%;
 }
 h1{
     font-family: 'Roboto Mono', monospace;
@@ -49,6 +49,7 @@ h1{
     margin:1%;
     font-size: xx-large;
     letter-spacing: 1rem;
+    font-weight: bold;
     
 }
 
@@ -267,75 +268,173 @@ button.d1:hover{
     justify-content:space-between;
     margin-left:5%;
     }
-    button.e1{
-        padding:1%;  
-        width:50%;
-        margin-left:25%;
-        }
-        button.f1{
-        padding:1%;  
-        width:50%;
-        margin-left:25%;
-        }
-        button.g1{
-        padding:1%;  
-        width:50%;
-        margin-left:25%;
-        }
-        button.h1{
-        padding:1%;  
-        width:50%;
-        margin-left:25%;
-        }
-        button.e1:hover{
-            transition: 1s;
-            background-color: black;
-            color: white;
-            border: 10px solid black;
-            opacity:0.5;
-        }
-        button.f1:hover{
-            transition: 1s;
-            background-color: black;
-            color: white;
-            border: 10px solid black;
-            opacity:0.5;
-        }
-        button.g1:hover{
-            transition: 1s;
-            background-color: black;
-            color: white;
-            border: 10px solid black;
-            opacity:0.5;
-        }
-        button.h1:hover{
-            transition: 1s;
-            background-color: black;
-            color: white;
-            border: 10px solid black;
-            opacity:0.5;
-        }
-        footer{
-            background:#202020;
-            
-            width:100%;
-        }
-        footer p{
-            text-align:center;
-           
-        }
-        footer button{
-        width:20%;
-        margin-left:40%;
-        margin-bottom:7%;
-        padding:2%;
-        }
-        footer button:hover{
-            transition: 1s;
-            background-color: black;
-            color: white;
-            border: 10px solid black;
-            opacity:0.5;
-        }
+button.e1{
+padding:1%;  
+width:50%;
+margin-left:25%;
+    }
+button.f1{
+padding:1%;  
+width:50%;
+margin-left:25%;
+    }
+button.g1{
+padding:1%;  
+width:50%;
+margin-left:25%;
+    }
+button.h1{
+padding:1%;  
+width:50%;
+margin-left:25%;
+    }
+button.e1:hover{
+transition: 1s;
+background-color: black;
+color: white;
+border: 10px solid black;
+opacity:0.5;
+    }
+button.f1:hover{
+transition: 1s;
+background-color: black;
+color: white;
+border: 10px solid black;
+opacity:0.5;
+    }
+button.g1:hover{
+transition: 1s;
+background-color: black;
+color: white;
+border: 10px solid black;
+opacity:0.5;
+    }
+button.h1:hover{
+transition: 1s;
+background-color: black;
+color: white;
+border: 10px solid black;
+opacity:0.5;
+    }
+footer{
+background:#202020;
+width:100%;
+    }
+footer p{
+text-align:center;
+    }
+footer button{
+width:20%;
+margin-left:40%;
+margin-bottom:7%;
+padding:2%;
+    }
+footer button:hover{
+transition: 1s;
+background-color: black;
+color: white;
+border: 10px solid black;
+opacity:0.5;
+    }
 
+@media(max-width:500px){
+h1{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    margin:4% 3%;
+    font-size:x-large;
+}
+nav .top1{
+   display:flex;
+   justify-content: center;
+   flex-direction:column;
+   margin-left:35%;
+}
+.one{
+    padding:7% 50%;
+    display:flex;
+    justify-content: center;
+    margin-bottom:0;
+}
+.two{
+    padding:7% 50%;
+    display:flex;
+    justify-content: center;
+    margin-bottom:0;
+}
+.three{
+    padding:7% 50%;
+    display:flex;
+    justify-content: center;
+    margin-bottom:0;
+}
+.four{
+    padding:7% 50%;
+    display:flex;
+    justify-content: center;
+    margin-bottom:0;
+}
+.top{
+    display:flex;
+    flex-direction:column;
+    max-width:100%;
+    
+}
+.top img{
+    max-width:100%;
+    margin-left:0%
+}
+.txt{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    margin-right:25%;
+    font-size: large;
+}
+.top p{
+    padding:3% 0;
+}
+.imga{
+    margin-top:10%;
+    margin-bottom:10%;
+   
+}
+.imgb{
+    margin-bottom:9%;
+    margin-top:10%;
+    
+}
+.imgc{
+    margin-bottom:9%;
+    
+}
+.imgd{
+    margin-bottom:9%;
+}
+.a{
+    margin-bottom:9%;
+}
+.b{
+    margin-bottom:9%;   
+}
+.c{
+    margin-bottom:9%;
+}
+.d{
+    margin-bottom:9%;
+}
+.row1{
+    display:flex;
+    flex-wrap:wrap;
+}
+.row1 div{
+    width:45%;
+    margin-left:5%
+}
+
+}
 
